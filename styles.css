@@ -1,0 +1,25 @@
+h1 {
+  border: 1px solid cadetblue; 
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cronograma { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: yellowgreen;
+  gap: 20px;
+padding: 20px;
+border-radius: 8px;
+  height: 350px;
+  width: 600px;
+}
+
+.evento{
+  background-color: greenyellow;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+
+}
